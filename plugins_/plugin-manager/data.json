@@ -1,0 +1,54 @@
+{
+  "pluginArr": {
+    "table-editor-obsidian": {
+      "id": "table-editor-obsidian",
+      "delay": 0,
+      "enabled": true
+    },
+    "better-word-count": {
+      "id": "better-word-count",
+      "delay": 0,
+      "enabled": true
+    },
+    "calendar": {
+      "id": "calendar",
+      "delay": 0,
+      "enabled": true
+    },
+    "obsidian-icon-folder": {
+      "id": "obsidian-icon-folder",
+      "delay": 0,
+      "enabled": true
+    },
+    "obsidian-languagetool-plugin": {
+      "id": "obsidian-languagetool-plugin",
+      "delay": 0,
+      "enabled": true
+    },
+    "obsidian-mind-map": {
+      "id": "obsidian-mind-map",
+      "delay": 0,
+      "enabled": true
+    },
+    "obsidian-minimal-settings": {
+      "id": "obsidian-minimal-settings",
+      "delay": 0,
+      "enabled": false
+    },
+    "omnisearch": {
+      "id": "omnisearch",
+      "delay": 0,
+      "enabled": true
+    },
+    "plugin-manager": {
+      "id": "plugin-manager",
+      "delay": 0,
+      "enabled": true
+    },
+    "obsidian-tasks-plugin": {
+      "id": "obsidian-tasks-plugin",
+      "delay": 0,
+      "enabled": true
+    }
+  }
+}
