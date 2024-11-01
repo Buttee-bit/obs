@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  obsidian:
+    image: ghcr.io/lanjelin/obsidian-docker:latest
+    container_name: obsidian
+    security_opt:
+      - seccomp:unconfined
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Moscow
+    volumes:
+      - ./config:/config  # Локальная папка, которую нужно загрузить в контейнер
+    ports:
+      - 3000:3000
+      - 3001:3001
+    restart: unless-stopped
